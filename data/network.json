@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "node-1763851848522-cntk3r9ex",
+      "type": "substation",
+      "capacity": 100,
+      "demand": 50,
+      "status": "active",
+      "name": "novo nó"
+    },
+    {
+      "id": "node-1763851877422-u7p03vx0u",
+      "type": "transmission",
+      "capacity": 100,
+      "demand": 30,
+      "status": "active",
+      "name": "Trans"
+    },
+    {
+      "id": "node-1763851905581-vvu1pijvi",
+      "type": "consumer",
+      "capacity": 100,
+      "demand": 80,
+      "status": "active",
+      "name": "consumidor"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "origin": "node-1763851848522-cntk3r9ex",
+      "destination": "node-1763851877422-u7p03vx0u",
+      "resistance": 0.1,
+      "capacity": 100,
+      "currentFlow": 0
+    },
+    {
+      "id": "edge-2",
+      "origin": "node-1763851877422-u7p03vx0u",
+      "destination": "node-1763851905581-vvu1pijvi",
+      "resistance": 0.1,
+      "capacity": 100,
+      "currentFlow": 0
+    }
+  ],
+  "edgeIdCounter": 3
+}
